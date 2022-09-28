@@ -69,7 +69,7 @@ Corso integrato di **Sistemi di Elaborazione delle Informazioni**
 
 # Materiale Didattico
 
-Sito docente: https://matteogithub.github.io/teaching/
+Sito docente: https://matteogithub.github.io/
 
 ---
 
@@ -275,12 +275,12 @@ Vedere link in chat su Microsoft Teams
 
 ---
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/wef.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/wef.png)
 
 ---
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/brands.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/brands.png)
 
 ---
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/toplang.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/toplang.png)
