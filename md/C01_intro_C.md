@@ -1,11 +1,17 @@
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2021-2022 -->
+---
+marp: true
+---
 
-<!-- page_number: true -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
 # Introduzione al C
 
-Elementi di Informatica
+Fondamenti di Programmazione
 
 
 ---
@@ -54,18 +60,18 @@ Windows (multipiattaforma)
 
 ---
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/clion.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/clion.png)
 
 
 ---
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/clion_guide.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/clion_guide.png)
 
 ---
 
 # Per smartphone e tablet
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/emu.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/emu.png)
 
 ---
 

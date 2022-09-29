@@ -1,8 +1,12 @@
-<!-- $theme: default -->
+---
+marp: true
+---
 
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2021-2022 -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
 
-<!-- page_number: true -->
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
 # C: variabili e assegnamenti
@@ -301,7 +305,7 @@ somma l'espressione a destra con l'espressione a sinistra e assegna alla variabi
 
 Calcolare diametro, circonferenza e aria di un cerchio a partire dal valore del raggio.
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/cerchio.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/cerchio.png)
 
 ---
 
