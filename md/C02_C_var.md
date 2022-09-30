@@ -11,7 +11,7 @@ marp: true
 
 # C: variabili e assegnamenti
 
-Elementi di Informatica
+Fondamenti di Programmazione
 
 ---
 
