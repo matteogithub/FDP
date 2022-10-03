@@ -71,6 +71,8 @@ Corso integrato di **Sistemi di Elaborazione delle Informazioni**
 # Materiale Didattico
 
 Sito docente: https://matteogithub.github.io/
+# ![](/Users/matteo/Documents/GitHub/FDP/images/home.png)
+
 
 ---
 
@@ -187,7 +189,7 @@ Conoscenze di base di matematica e algebra. Dimestichezza con l'uso del calcolat
 
 # Prove intermedie
 Prove aperte a tutti gli studenti
-`Prima prova`: novembre
+`Prima prova`: lunedì 14 – sabato 19 novembre 2022
 `Seconda prova`: fine Dicembre / primi di gennaio
 
 Per poter sostenere la seconda prova occorre aver superato la prima prova (almeno 16/30)
@@ -232,7 +234,7 @@ www.menti.com
 - Brain signal processing
 - Connectivity and Network analysis in M/EEG
 
-`Laboratorio di Neuroimaging` 2 CFU - Gennaio/Febbraio 2022
+`Applicazioni avanzate di informatica medica e machine learning` 2 CFU - Gennaio/Febbraio 2022
 
 ---
 
@@ -262,7 +264,8 @@ www.menti.com
 
 # Test ingresso
 
-Vedere link in chat su Microsoft Teams
+Vedere link in chat su sito docente (https://matteogithub.github.io/):
+https://forms.gle/H6egVb2hA9SU7vqbA
 
 ---
 
