@@ -162,7 +162,7 @@ rappresentano dei **commenti**
 
 `printf("Hello world\n");`
 
-- La `printf` è funzione che scrive sullo standard output (monitor). 
+- La `printf` è una funzione che scrive sullo standard output (monitor). 
 - Tra `“”` si può inserire del testo.
 - `\n` indica l'inserimento di una nuova linea.
 - ogni istruzione deve terminare con un `;`.

@@ -18,7 +18,7 @@ Fondamenti di Programmazione
 # Dichiarazione di variabili
 
 - E' il nome di un'area di memoria che il nostro programma potrà utilizzare.
-- Dichiarazione delle variabili che saranno utilizzate nel programma.
+- Dichiarazione delle variabili: definizione delle aree di memoria che saranno utilizzate nel programma.
 - Assegnazione di un **nome** (identificatore) e attribuzione del **tipo**.
 - Il tipo definisce le caratteristiche che regolano l'uso di una variabile.
 
