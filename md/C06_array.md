@@ -17,7 +17,7 @@ Fondamenti di Programmazione
 
 # Array
 
-E' un tipo di struttura dati che può memorizzare una raccolta sequenziale di elementi dello stesso tipo
+E' un tipo di struttura dati che può memorizzare una raccolta **sequenziale** di elementi dello stesso tipo
 
 **Tipo derivato**: deve far riferimento ad un tipo *base*
 
@@ -33,7 +33,7 @@ E' un tipo di struttura dati che può memorizzare una raccolta sequenziale di el
 
 E' quindi una **variabile strutturata**, i cui elementi sono tutti dello stesso tipo (*tipo del vettore*)
 
-### Dichiarazione di un vettore:
+### Dichiarazione di un array:
 - Indicare nome, tipo e lunghezza :bulb:
 
 :point_down:
@@ -70,7 +70,7 @@ Esempio:
 
 `[0] [1] [2] ... [N-1] `
 
-Tentare di accedere con un altro indice (fuori dall'intervallo) può non generare un errore :confused:
+Tentare di accedere con un indice diverso (fuori dall'intervallo) può non generare un errore :confused:
 
 
 ---
@@ -99,10 +99,10 @@ int voti[10],somma=0,i;
 
 ...
 
-for(i=0; i<10; ++i)
+for(i=0; i<10; ++i) // <- i parte da 0
 {
 	printf("Inserisci voto: ");
-    	scanf("%d",&voti[i]);
+    	scanf("%d",&voti[i]); // <- conserviamo i voti
     	somma += voti[i];
 }
 ```
@@ -112,7 +112,6 @@ for(i=0; i<10; ++i)
 # Array
 
 ### Considerazione importante!
-
 con `int voti[10];` stiamo dicendo che la lunghezza dell'array sarà 10!
 
 - Se volessimo inserire 20 elementi?
@@ -124,7 +123,6 @@ Utilizzo della direttiva `#define` (si usa un nome simbolico)
 
 ```C
 #define NVOTI 10
-
 int voti[NVOTI];
 ```
 
@@ -178,7 +176,7 @@ int main()
 ---
 
 # Esempio
-Controllo dimensione Array
+**Controllo dimensione Array**
 ```C
 #include <stdio.h>
 #define NVOTI 10
