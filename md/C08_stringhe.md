@@ -1,6 +1,12 @@
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2021-2022 -->
+---
+marp: true
+---
 
-<!-- page_number: true -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
 # C: Stringhe
