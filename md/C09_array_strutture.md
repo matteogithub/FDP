@@ -87,6 +87,12 @@ printf("\nQuanti studenti vuoi inserire? ");
         printf("\nMatricola: ");
         scanf("%d",&studente[i].matricola);
     }
+```
+Continua...
+
+---
+
+```C
 
     printf("\n\nElenco studenti:\n");
     for(int i=0;i<n_studenti;++i) {
@@ -121,11 +127,11 @@ int main() {
     int n_studenti,somma=0,i;
     float media;
 ```
+Continua...
 
 ---
 
 ```C
-
     printf("\nQuanti studenti vuoi inserire? ");
     scanf("%d",&n_studenti);
     printf("\nInserisci studenti:\n");
@@ -140,9 +146,18 @@ int main() {
         somma+=studente[i].voto_laurea;
     }
     media=(float)somma/n_studenti;
+```
+Continua...
+
+---
+
+```C
     printf("\n\nElenco studenti:\n");
     for(i=0;i<n_studenti;++i) {
-        printf("%s %s - diff media: %.1f\n",studente[i].nome,studente[i].cognome,studente[i].voto_laurea-media);
+        printf("%s %s - diff media: %.1f\n",
+        studente[i].nome,
+        studente[i].cognome,
+        studente[i].voto_laurea-media);
     }
 }
 ```
@@ -188,13 +203,18 @@ Creare un programma che permetta di inserire i voti di N esami per M studenti e 
         char cognome[DIM_NOME];
         struct corso esame[DIM_ESAME];
     };
+```
+Continua...
 
+---
+
+```C
 int main() {
     struct anagr studente[DIM_STUD];
     int n_studenti,n_esami,somma[DIM_STUD]={0};
     float media[DIM_STUD]={0};
 ```
-
+Continua...
 ___
 
 
