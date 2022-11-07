@@ -11,8 +11,6 @@ marp: true
 
 # Rappresentazione delle informazioni
 
-Elementi di Informatica
-
 ---
 
 # Informazione
@@ -45,7 +43,7 @@ Insieme finito di elementi distinti (tipo discreto)
 ---
 
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/image.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/image.png)
 
 
 ---
@@ -142,7 +140,7 @@ Flip-flop: supporto di memorizzazione che supporta due stati
 
 Introduzione di un certo livello di approssimazione
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/resolution.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/resolution.png)
 
 ---
 
@@ -151,7 +149,7 @@ Introduzione di un certo livello di approssimazione
 
 Per questioni "costruttive" generalemnte si fa riferimento a blocchi di 8 bit detti **byte**
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/byte.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/byte.png)
 
 ---
 
@@ -159,7 +157,7 @@ Per questioni "costruttive" generalemnte si fa riferimento a blocchi di 8 bit de
 
 Codifica binaria a lunghezza fissa: parole di lunghezza multipli di 8
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/byte3.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/byte3.png)
 
 ---
 
@@ -211,7 +209,7 @@ Per evitare di dover utilizzare stringhe di bit troppo lunghe si utilizzano i si
 
 ---
 
-# Ottale
+### Ottale
 
 | Ottale | Binario |
 |--------|---------|
@@ -226,7 +224,7 @@ Per evitare di dover utilizzare stringhe di bit troppo lunghe si utilizzano i si
 
 ---
 
-# Esadecimale
+### Esadecimale
 
 | Esadecimale | Binario |
 |-------------|---------|
@@ -243,7 +241,7 @@ Per evitare di dover utilizzare stringhe di bit troppo lunghe si utilizzano i si
 
 # Conversione 
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/convbase.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/convbase.png)
 
 ---
 
