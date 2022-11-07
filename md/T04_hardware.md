@@ -1,11 +1,15 @@
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2021-2022 -->
+---
+marp: true
+---
 
-<!-- page_number: true -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
 # Hardware
-
-Elementi di Informatica
 
 ---
 
@@ -33,27 +37,25 @@ Le componenti fondamentali che costituiscono un calcolatore sono i **transistor*
 
 ---
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/moore.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/moore.png)
 
 ---
 
 # Macchina di Von Neumann
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/von.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/von.png)
 
 ---
 
 # Macchina di Von Neumann
 
-### Modello di architettura utilizzato dai moderni computer
+- Microprocessore (CPU – Central Processing Unit): ha il compito di elaborare i dati presenti nella memoria centrale (RAM), coordina e controlla le periferiche.
 
-- Microprocessore (CPU – Central Processing Unit): ha il compito di elaborare i dati presenti nella memoria centrale (RAM), inoltre coordina e controlla il funzionamento delle periferiche.
+- Memoria Centrale (RAM – Random Access Memory): memorizza i programmi in esecuzione e i dati utili al loro funzionamento.
 
-- Memoria Centrale (RAM – Random Access Memory): è utilizzata per memorizzare i programmi in esecuzione e i dati utili al loro funzionamento.
+- Periferiche di i/o: componenti che rendono possibile la comunicazione tra PC e utente.
 
-- Periferiche di i/o: sono tutte quelle componenti che rendono possibile la comunicazione tra la macchina e l’uomo.
-
-- Bus di sistema: è costituito da una serie di connessioni elementari (sistema aperto) lungo le quali viene trasferita l’informazione (indirizzi, dati e segnali di controllo). 
+- Bus di sistema: connessioni (sistema aperto) lungo le quali viene trasferita l’informazione (indirizzi, dati e segnali di controllo). 
 
 
 ---
@@ -144,7 +146,7 @@ In base al fenomeno fisico responsabile del processo di memorizzazione, vengono 
 - magnetiche
 - ottiche
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/mem.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/mem.png)
 
 ---
 
@@ -204,7 +206,7 @@ Caratteristica fondamentale della memoria centrale è la capacità di permettere
 # Memoria Centrale - RAM
 
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/ram.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/ram.png)
 
 ---
 
@@ -228,7 +230,7 @@ Si differenziano per il loro uso e le loro caratteristiche.
 
 # Estensioni alla macchina di Von Neumann
 
-Il limite della M. di von Neumann (formulata più di 50 anni fa) è la **stretta sequenzialità** con cui vengono eseguite le varie operazioni. 
+Il limite della M. di von Neumann è la **stretta sequenzialità** con cui vengono eseguite le operazioni. 
 
 Sono state proposte alcune estensioni:
 
