@@ -1,11 +1,16 @@
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2021-2022 -->
+---
+marp: true
+---
 
-<!-- page_number: true -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
-# Algoritmi: problemi, algoritmi e programmi
-
-Elementi di Informatica
+# Algoritmi
+### Problemi, algoritmi e programmi
 
 ---
 
@@ -17,20 +22,19 @@ Elementi di Informatica
 
 
 ---
-# Definizione
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/algo.png)
-
----
-# Definizione
-
-Insieme di **istruzioni** che deve essere applicato per eseguire un’elaborazione o risolvere un problema.
+# ![](/Users/matteo/Documents/GitHub/FDP/images/algo.png)
 
 ---
+# Definizione
+
+Insieme di **istruzioni** che deve essere applicate per eseguire un’elaborazione o risolvere un problema.
+
+---
 
 # Definizione
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/lego.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/lego.png)
 
 ---
 
@@ -91,7 +95,9 @@ Le istruzioni che il calcolatore deve eseguire devono essere espresse attraverso
 - Compilazione (e/o interpretazione).
 - Compilatore e Linker.
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/compiler.png)
+---
+
+# ![](/Users/matteo/Documents/GitHub/FDP/images/compiler.png)
 
 ---
 
