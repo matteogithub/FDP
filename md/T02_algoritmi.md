@@ -28,7 +28,7 @@ marp: true
 ---
 # Definizione
 
-Insieme di **istruzioni** che deve essere applicate per eseguire un’elaborazione o risolvere un problema.
+Insieme di **istruzioni** che devono essere applicate per eseguire un’elaborazione o risolvere un problema.
 
 ---
 
