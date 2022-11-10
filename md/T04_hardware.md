@@ -133,8 +133,12 @@ Lo schema della macchina di Von Neumann prevede un unico tipo di memoria da cui 
 
 # Memoria
 
-Esistono diverse tecniche per far ricordare ad un mezzo fisico un informazione di tipo binario (0 o 1). 
-Tali tecniche definiscono memorie molto diverse tra di loro in termini di velocità (tempo medio necessario per recuperare l’informazione) e di costo.
+Esistono diverse tecniche per far ricordare ad un mezzo fisico un informazione di tipo **binario** (0 o 1).
+
+Tali tecniche producono memorie molto diverse tra di loro in termini di velocità e di costo.
+
+La codifica binaria e' piu' **efficiente**: sfrutta la differenza fra **due valori** di una quantità fisica continua. Se dobbiamo distinguere tra piu' valori ci sara' meno separazione tra valori vicini e la memoria sara' meno affidabile.  
+
 
 ---
 
