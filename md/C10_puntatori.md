@@ -11,7 +11,6 @@ marp: true
 
 # C: Puntatori
 
-Elementi di Informatica
 
 ---
 
