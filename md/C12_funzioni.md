@@ -14,7 +14,7 @@ marp: true
 
 ---
 
-# Le funzioni
+## Le funzioni
 
 Le funzioni sono dei **sottoprogrammi** costituiti da un insieme di istruzioni
 
@@ -28,7 +28,7 @@ Creazione librerie (scanf, printf) che nascondono i dettagli implementativi
 
 ---
 
-# Funzioni: introduzione
+## Funzioni: introduzione
 
 `valori in ingresso` -> `FUNZIONE` -> `valore restituito`
 
@@ -42,7 +42,7 @@ int main() {
 
 ---
 
-# Funzioni: dichiarazione
+## Funzioni: dichiarazione
 
 1. scelta del **nome** della funzione
 2. **tipo** del valore restituito
@@ -59,7 +59,7 @@ int somma(int, int);
 
 ---
 
-# Funzioni: definizione
+## Funzioni: definizione
 
 Con la definizione di una funzione *specifichiamo*  le istruzioni che caratterizzano la funzione
 
@@ -78,7 +78,7 @@ La definizione deve essere inserita subito dopo la chiusura del `main`
 
 ---
 
-# Funzioni: chiamata
+## Funzioni: chiamata
 
 La **chiamata** permette di *eseguire* la funzione, passare i parametri (*attuali*) ed assegnare il valore restituito
 
@@ -97,7 +97,7 @@ int main() {
 
 ---
 
-# Funzioni: primo esempio
+## Funzioni: primo esempio
 
 ```C
 #include <stdio.h>
@@ -117,7 +117,7 @@ void messaggio() {
 
 ---
 
-# Funzioni: secondo esempio
+## Funzioni: secondo esempio
 
 ```C
 #include <stdio.h>
@@ -140,7 +140,7 @@ void messaggio() {
 
 ---
 
-# Funzioni: altro esempio
+## Funzioni: altro esempio
 
 ```C
 #include <stdio.h>
@@ -164,11 +164,10 @@ void pari_dispari(int n) {
 
 ---
 
-# Funzioni: utilizzo di più parametri
+## Funzioni: più parametri
 
 ```C
 #include <stdio.h>
-
 void bmi(float,float);
 
 int main() {
@@ -189,11 +188,10 @@ void bmi(float p,float a) {
 
 ---
 
-# Funzioni: utilizzo di più parametri e return
+## Funzioni: più parametri e return
 
 ```C
 #include <stdio.h>
-
 float bmi(float,float);
 
 int main() {
@@ -217,13 +215,12 @@ float bmi(float p,float a) {
 
 ---
 
-# Funzioni: utilizzo di più parametri e return
+## Funzioni: più parametri e return
 
 Oppure...
 
 ```C
 #include <stdio.h>
-
 float bmi(float,float);
 
 int main() {
@@ -245,7 +242,7 @@ float bmi(float p,float a) {
 
 ---
 
-# Funzioni: passaggio dei parametri
+## Funzioni: passaggio dei parametri
 
 :point_right: In C avviene sempre e solo  **per valore**
 - *i parametri formali vengono inizializzati con i corrispondenti valori dei parametri attuali*
@@ -254,13 +251,12 @@ Una funzione **non modifica** i valori dei parametri attuali :pencil:
 
 ---
 
-# Funzioni: passaggio dei parametri
+## Funzioni: passaggio dei parametri
 
 La variabile `num`non viene modificata dalla funzione
 
 ```C
 #include <stdio.h>
-
 int quadrato(int);
 
 int main() {
@@ -280,13 +276,12 @@ int quadrato(int n) {
 
 ---
 
-# Funzioni: passaggio dei parametri
+## Funzioni: passaggio dei parametri
 
 La variabile `num`non viene modificata dalla funzione
 
 ```C
 #include <stdio.h>
-
 int quadrato(int);
 
 int main() {
@@ -306,7 +301,7 @@ int quadrato(int num) { //neanche in questo caso!!!
 
 ---
 
-# Funzioni: passaggio dei parametri
+## Funzioni: passaggio dei parametri
 
 Passaggio **esplicito**: utilizzo dei parametri attuali e formali
 
@@ -314,7 +309,7 @@ Passaggio **implicito**: utilizzi di variabili globali (è buona norma evitarle!
 
 ---
 
-# Visibilità (scope)
+## Visibilità (scope)
 
 :point_right: La dichiarazione di una variabile introduce un nome simbolico **visibile** (*scope*) all’interno di una specifica parte (blocco) del programma
 
@@ -329,7 +324,7 @@ Nome globale – **variabile globale**
 
 ---
 
-# Visibilità (scope)
+## Visibilità (scope)
 
 Esempio:
 
@@ -349,7 +344,7 @@ Cosa produce questo programma?
 
 ---
 
-# Visibilità (scope)
+## Visibilità (scope)
 
 Esempio:
 
@@ -370,7 +365,7 @@ E questo?
 
 ---
 
-# Visibilità (scope)
+## Visibilità (scope)
 
 Occorre prestatare particolare attenzione al **mascheramento**
 
@@ -379,7 +374,7 @@ Occorre prestatare particolare attenzione al **mascheramento**
 
 ---
 
-# Mascheramento
+## Mascheramento
 
 ```C
 #include <stdio.h>
@@ -397,7 +392,7 @@ Provate questo codice
 
 ---
 
-# Mascheramento
+## Mascheramento
 
 ```C
 #include <stdio.h>
@@ -422,7 +417,7 @@ E' possibile che il mascheramento avvenga senza rendersene conto!
 
 ---
 
-# Scope: variabile globale
+## Scope: variabile globale
 
 ```C
 #include <stdio.h>
@@ -447,7 +442,7 @@ int quadrato(int n) {
 
 ---
 
-# Scope: variabile globale
+## Scope: variabile globale
 
 ```C
 #include <stdio.h>
@@ -471,7 +466,7 @@ int quadrato() {
 
 ---
 
-# Scope: variabile globale
+## Scope: variabile globale
 
 ```C
 #include <stdio.h>
@@ -495,7 +490,7 @@ int quadrato() {
 
 ---
 
-# Scope: e ancora...
+## Scope: e ancora...
 
 ```C
 #include <stdio.h>
@@ -521,7 +516,7 @@ int quadrato() {
 
 ---
 
-# Scope: e ancora...
+## Scope: e ancora...
 
 ```C
 #include <stdio.h>
@@ -548,7 +543,7 @@ int quadrato() {
 
 ---
 
-# Scope: ultimo esempio
+## Scope: ultimo esempio
 
 ```C
 #include <stdio.h>
@@ -576,7 +571,7 @@ int quadrato() {
 
 ---
 
-# Passaggio dei parametri
+## Passaggio dei parametri
 
 Ricapitolando...
 
@@ -589,7 +584,7 @@ Ricapitolando...
 
 ---
 
-# Passaggio dei parametri
+## Passaggio dei parametri
 
 :bulb: E se volessimo modificare il valore dei parametri attuali all'interno della funzione?
 
@@ -599,7 +594,7 @@ E quindi usare i **puntatori**!
 
 ---
 
-# Esempio: scambia
+## Esempio: scambia
 
 ```C
 #include <stdio.h>
@@ -622,11 +617,10 @@ void scambia(int x, int y) {
 
 ---
 
-# Esempio: scambia con i puntatori
+## Esempio: scambia con i puntatori
 
 ```C
 #include <stdio.h>
-
 void scambia(int *, int *);
 
 int main() {
@@ -643,6 +637,5 @@ void scambia(int *x, int *y) {
   *y=tmp;
 }
 ```
-
 `Prima x vale 0 e y vale 1` e `Dopo x vale 1 e y vale 0`
 
