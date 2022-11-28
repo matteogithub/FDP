@@ -2,14 +2,16 @@
 marp: true
 ---
 
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2021-2022 -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
 
-<!-- page_number: true -->
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
 # C: I File
 
-Elementi di Informatica
+
 
 ---
 

@@ -1,11 +1,16 @@
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2020-2021 -->
+---
+marp: true
+---
 
-<!-- page_number: true -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+
+<!-- paginate: true -->
+
+<!-- size: 4:3 -->
 
 
 # C: simulazione compito e note
 
-Elementi di Informatica
 
 ---
 
