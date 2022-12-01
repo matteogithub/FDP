@@ -231,7 +231,35 @@ int main () {
 
 ---
 
-# Array dinamico: con funzioni (soluzione 1)
+### Array dinamico: con funzioni (sol. 1)
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+int * allocate_array(int size);
+
+int main () {
+    int i,n, *ptr;
+    printf("\nInserisce dimensione array: ");
+    scanf("%d",&n);
+    ptr=allocate_array(n);
+    printf("ptr: %p\n",ptr);
+    for(i=0;i<n;i++) printf("%d ",*(ptr+i));
+    free(ptr);
+}
+int * allocate_array(int size) {
+    int i,*p;
+    p=(int*) calloc(size, sizeof(int));
+    printf("p: %p\n",p);
+    for(i=0;i<size;i++)
+        scanf("%d",p+i);
+    return p;
+}
+```
+
+---
+
+### Array dinamico: con funzioni (sol. 2)
 
 ```C
 #include <stdio.h>
@@ -240,52 +268,31 @@ void allocate_array(int size, int **p);
 
 int main () {
     int i,n, *ptr;
-    printf("\nInserisce dimensione array: ");
+    printf("Inserisce dimensione array: ");
     scanf("%d",&n);
-    //printf("\nIndirizzo ptr: %ld",&ptr);
+    printf("Indirizzo ptr: %p\n",&ptr);
     allocate_array(n,&ptr);
-    //printf("\nptr in main: %ld ",ptr);
+    printf("ptr in main: %p\n",ptr);
     for(i=0;i<n;i++) printf("%d ",*(ptr+i));
     free(ptr);
 }
 
 void allocate_array(int size, int **p) { //p=&ptr;
     int i;
-    //printf("\nIndirizzo ptr nella f: %ld",p);
-    *p=(int*) calloc(size, sizeof(int)); //*p equivale a ptr del main -> ptr = calloc...
-    //printf("\nptr in f: %ld ",*p);
+    printf("Indirizzo ptr nella f: %p\n",p);
+    *p=(int*) calloc(size, sizeof(int)); 
+    //*p equivale a ptr del main -> ptr = calloc...
+    printf("ptr in f: %p \n",*p);
     for(i=0;i<size;i++) scanf("%d",*p+i); //carico in array dinamico
 }
 ```
 
 ---
+
 # ![](/Users/matteo/Documents/GitHub/FDP/images/arr_din01.png)
 
 ---
-# Array dinamico: con funzioni (soluzione 2)
 
-```C
-#include <stdio.h>
-#include <stdlib.h>
-int * allocate_array(int size);
-int main () {
-    int i,n, *ptr;
-    printf("\nInserisce dimensione array: ");
-    scanf("%d",&n);
-    ptr=allocate_array(n);
-    for(i=0;i<n;i++) printf("%d ",*(ptr+i));
-    free(ptr);
-}
-int * allocate_array(int size) {
-    int i,*p;
-    p=(int*) calloc(size, sizeof(int));
-    for(i=0;i<size;i++)
-        scanf("%d",p+i);
-    return p;
-}
-```
-
----
 # Array dinamico: esempio di realloc()
 
 ```C
