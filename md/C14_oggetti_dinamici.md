@@ -265,24 +265,23 @@ int * allocate_array(int size) {
 #include <stdio.h>
 #include <stdlib.h>
 void allocate_array(int size, int **p);
-
 int main () {
     int i,n, *ptr;
     printf("Inserisce dimensione array: ");
     scanf("%d",&n);
     printf("Indirizzo ptr: %p\n",&ptr);
     allocate_array(n,&ptr);
-    printf("ptr in main: %p\n",ptr);
+    printf("Valore di ptr in main: %p\n",ptr);
     for(i=0;i<n;i++) printf("%d ",*(ptr+i));
     free(ptr);
 }
-
 void allocate_array(int size, int **p) { //p=&ptr;
     int i;
     printf("Indirizzo ptr nella f: %p\n",p);
-    *p=(int*) calloc(size, sizeof(int)); 
-    //*p equivale a ptr del main -> ptr = calloc...
-    printf("ptr in f: %p \n",*p);
+    *p=(int*) calloc(size, sizeof(int));
+    //*p equivale al valore di ptr del main -> ptr = calloc...
+    printf("Contenuto di ptr in f: %p \n",*p);
+    //indirizzo puntato da ptr
     for(i=0;i<size;i++) scanf("%d",*p+i); //carico in array dinamico
 }
 ```
