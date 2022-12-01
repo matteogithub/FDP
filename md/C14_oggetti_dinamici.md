@@ -171,7 +171,7 @@ int main() {
 - Liste lineari:
 	- Insieme di elementi omogenei memorizzati in una posizione qualsiasi (semplicità di inserimento/eliminazione e spostamento)
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/lista.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/lista.png)
 
 ---
 
@@ -259,7 +259,7 @@ void allocate_array(int size, int **p) { //p=&ptr;
 ```
 
 ---
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/arr_din01.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/arr_din01.png)
 
 ---
 # Array dinamico: con funzioni (soluzione 2)
