@@ -337,7 +337,7 @@ void scrivi_file(int *v, int n, float media) {
 
 # Esercizio
 
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/ex05.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/ex05.png)
 
 
 ---
