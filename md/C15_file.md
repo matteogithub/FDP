@@ -130,7 +130,7 @@ int main() {
   fclose(fileptr);
 }
 ```
-In C la funzione `feof()` rende un valore diverso da 0 quando arriva a fine file
+In C la funzione `feof()` rende un valore diverso da 0 quando arriva a fine file - ma attenzione
 
 ---
 
@@ -140,7 +140,7 @@ In C la funzione `feof()` rende un valore diverso da 0 quando arriva a fine file
 
 `fputs()`: scrive una riga su un file
 
-Il fine riga è individuata dal carattere `\n`
+Il fine riga è individuato dal carattere `\n`
 
 
 ---
@@ -185,20 +185,15 @@ La funzione `fgets()` aggiunge a fine linea il carattere `\0` di fine stringa!
 #define DIM 100
 
 int main() {
-
-  FILE *fileptr;
-  char vettore[DIM];
-
-  fileptr=fopen("file05","w");
-  if(fileptr==NULL)
-    printf("\nFile inesistente\n");
-  else {
+    FILE *fileptr;
+    char vettore[DIM];
+    fileptr=fopen("file_02.txt","w");
     printf("Inserisci del testo: ");
-    fgets(vettore,DIM,stdin);
-    fprintf(fileptr,"%s",vettore);
+    fgets(vettore, DIM, stdin);
+    fprintf(fileptr, "%s", vettore);
     fclose(fileptr);
-    }
-  }
+    return 0;
+}
 ```
 
 ---
