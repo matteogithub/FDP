@@ -318,7 +318,7 @@ void scrivi_file(int *v, int n, float media) {
   FILE *fileptr;
   int i;
 
-  fileptr=fopen("/Users/matteo/Documents/perfile/file07","w");
+  fileptr=fopen("my_file.txt","w");
   for(i=0;i<n;i++) {
     if(*(v+i)>media)
       fprintf(fileptr,"%d ",*(v+i));
