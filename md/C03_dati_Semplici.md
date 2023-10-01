@@ -2,7 +2,7 @@
 marp: true
 ---
 
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2023-2024 -->
 
 <!-- paginate: true -->
 
@@ -101,7 +101,7 @@ Riduce l'effetto degli errori di approssimazione (arrotondamento)
 
 ---
 
-# Tipo char: caratteri
+# Tipo char: i caratteri
 
 I caratteri possono assumere valori alfanumerici
 
@@ -121,6 +121,3 @@ Altre funzioni standard: `getchar()` e `putchar()`
 x = getchar();
 putchar(x);
 ```
-
-
-

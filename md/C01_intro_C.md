@@ -2,7 +2,7 @@
 marp: true
 ---
 
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2023-2024 -->
 
 <!-- paginate: true -->
 
@@ -34,6 +34,7 @@ Unix/Linux
 1989: pubblicazione dello standard C - C89
 1999: pubblicazione dello standard C - C99
 2011: pubblicazione dello standard C - C11
+2018: pubblicazione dello standard C - C18
 
 ---
 # IDE – Integrated Development Enviroment
@@ -55,8 +56,8 @@ Windows (multipiattaforma)
 - CodeLite
 - Visual Studio (Code)
 - **Atom**
-- **CLion** (licenza con credenziali di Unica)
 - **Qt Creator**
+- **CLion** (licenza con credenziali di Unica)
 
 ---
 
@@ -80,6 +81,38 @@ Windows (multipiattaforma)
 www.menti.com
 
 ---
+
+# Strumenti utili
+
+- GitHub
+
+- StackOverflow
+
+- ChatGPT
+
+---
+
+# Linguaggi di programmazione
+
+- linguaggi macchina
+- linguaggi assembly
+- linguaggi di alto livello (compilati o interpretati)
+
+---
+
+# Il linguaggio C
+
+Linguaggio di alto livello
+
+1. Creazione del programma: editor
+2. Compilazione: codice oggetto
+3. Linking: file eseguibile
+4. Loading: caricamento in memoria centrale
+5. Esecuzione
+
+
+---
+
 # Struttura di un programma in C
 
 ```C
@@ -174,5 +207,3 @@ rappresentano dei **commenti**
 `return 0;`
 
 - indica che il programma è terminato con successo.
-
-

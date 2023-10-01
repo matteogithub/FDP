@@ -2,7 +2,7 @@
 marp: true
 ---
 
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2023-2024 -->
 
 <!-- paginate: true -->
 
@@ -17,7 +17,7 @@ Fondamenti di Programmazione
 
 # Dichiarazione di variabili
 
-- E' il nome di un'area di memoria che il nostro programma potrà utilizzare.
+- E' il nome (etichetta) di un'area di memoria che il nostro programma potrà sucessivamente utilizzare.
 - Dichiarazione delle variabili: definizione delle aree di memoria che saranno utilizzate nel programma.
 - Assegnazione di un **nome** (identificatore) e attribuzione del **tipo**.
 - Il tipo definisce le caratteristiche che regolano l'uso di una variabile.
@@ -35,10 +35,9 @@ Fondamenti di Programmazione
 ```C
 int i;
 int a,b;
-float c;
-int j=0;
-
+char c;
 ```
+dove `int` e `char` rappresentano due diversi tipi
 
 NB: il C è *case sensitive*!
 NB: scelta del nome delle variabili
@@ -78,7 +77,7 @@ c='a';
 x=x+1; //Come si interpreta?
 ```
 
-NB: da non confondere con il sombolo  `==` (*uguale a*)!
+NB: da non confondere con il simbolo  `==` (*uguale a*)!
 
 ---
 
@@ -216,13 +215,13 @@ se non utilizzo il simbolo `&` il programma si comparta in modo *anomalo*
 
 ---
 
-# Esercizio
+## :heavy_exclamation_mark: Esercizio 1
 
 Scrivere un programma in C che permetta di calcolare l'area di un rettangolo. La base e l'altezza devono essere letti da tastiera.
 
 ---
 
-# Soluzione
+## :white_check_mark: Soluzione 1
 
 ```C
 #include <stdio.h>
@@ -231,25 +230,25 @@ int main()
 {
   int base, altezza;
 
-  printf("Inserisci la base: ");
+  printf("\nInserisci la base: ");
   scanf("%d", &base);
 
-  printf("Inserisci l'altezza: ");
+  printf("\nInserisci l'altezza: ");
   scanf("%d", &altezza);
 
-  printf("L'area vale: %d\n",base * altezza);
+  printf("\nL'area vale: %d",base * altezza);
 
   return 0;
 }
 ```
 
 ---
-# Esercizio
+## :heavy_exclamation_mark: Esercizio 2
 
 Scrivere un programma in C che esegua la somma di due numeri interi
 
 ---
-# Soluzione
+## :white_check_mark: Soluzione 2
 
 ```C
 #include <stdio.h>
@@ -258,12 +257,12 @@ int main()
 {
   int n, m, somma;
 
-  printf("Inserisci i numeri: ");
+  printf("\nInserisci i numeri: ");
   scanf("%d%d", &n,&m);
 
   somma=n+m;
 
-  printf("%d + %d: %d\n",n,m, somma);
+  printf("\n%d + %d: %d",n,m, somma);
 
   return 0;
 }
@@ -301,7 +300,7 @@ somma l'espressione a destra con l'espressione a sinistra e assegna alla variabi
 `count = count + 10;`
 
 ---
-# Esercizio
+## :heavy_exclamation_mark: Esercizio 3
 
 Calcolare diametro, circonferenza e aria di un cerchio a partire dal valore del raggio.
 
@@ -309,7 +308,7 @@ Calcolare diametro, circonferenza e aria di un cerchio a partire dal valore del 
 
 ---
 
-# Soluzione
+## :white_check_mark: Soluzione 3
 
 ```C
 #include <stdio.h>
@@ -361,5 +360,3 @@ int main()
     return 0;
 }
 ```
-
-
