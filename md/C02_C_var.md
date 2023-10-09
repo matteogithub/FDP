@@ -346,14 +346,74 @@ int main()
     i1=f1; //conversione da float ad intero: 3
     printf("%f -> ad intero produce: %d\n", f1, i1);
 
+    return 0;
+}
+```
+
+---
+
+# Conversione
+
+```C
+#include <stdio.h>
+int main()
+{
+    float f1=3.7, f2; 
+    int i1,i2=-10;
+
     f1=i2; // conversione da intero a float: -10.000
     printf("%d -> a float produce: %f\n", i2, f1);
+
+    return 0;
+}
+```
+
+---
+
+# Conversione
+
+```C
+#include <stdio.h>
+int main()
+{
+    float f1=3.7, f2; 
+    int i1,i2=-10;
 
     f1=i2/3; // divisione tra interi: -3.000
     printf("%d diviso 3 produce: %f\n", i2, f1);
 
+    return 0;
+}
+```
+
+---
+
+# Conversione
+
+```C
+#include <stdio.h>
+int main()
+{
+    float f1=3.7, f2; 
+    int i1,i2=-10;
+
     f2=i2/3.0; // intero diviso float: -3.333
     printf("%d diviso 3.0 produce: %f\n",i2,f2);
+
+    return 0;
+}
+```
+
+---
+
+# Conversione
+
+```C
+#include <stdio.h>
+int main()
+{
+    float f1=3.7, f2; 
+    int i1,i2=-10;
 
     f2=(float) i2/3; //cast: -3.333
     printf("(float) %d diviso 3 produce: %f\n",i2,f2);
