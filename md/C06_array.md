@@ -369,6 +369,7 @@ int main()
 
 ---
 
+<!--
 # Esercizio
 Scrivere un programma che calcoli la frequenza di N voti compresi tra 0 e 10
 
@@ -448,6 +449,7 @@ int main()
 ```
 
 ---
+-->
 
 # Esercizio
 Scrivere un programma che esegua la ricerca di un elemento (letto da tastiera) in un array
