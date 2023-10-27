@@ -2,7 +2,7 @@
 marp: true
 ---
 
-<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2022-2023 -->
+<!-- footer: M. Fraschini - Università degli Studi di Cagliari - AA 2023-2024 -->
 
 <!-- paginate: true -->
 
