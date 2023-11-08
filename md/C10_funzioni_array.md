@@ -152,84 +152,37 @@ float calcola_media(int *v, int n) {
 
 ---
 
-# Esercizio
-Scrivere un programma in C che, attraverso l'uso di una funzione, permetta di ordinare gli elementi di un array
+# Domanda di ripasso...
+
+Perché i puntatori hanno un tipo?
 
 ---
 
-# Soluzione
+# Domanda di ripasso...
+
+Perché i puntatori non vengono utilizzati solo per memorizzare l'indirizzo di una variabile!
+- Deferenziazione
+- Aritmetica dei puntatori
+
+---
 
 ```C
 #include <stdio.h>
-#define DIM 10
 
-void ordina(int *, int);
+int main(){
 
-int main() {
-  int n,v[DIM],i;
+    int n = 1025;
+    int *ip;
+    char *cp;
+    ip = &n;
+    printf("\n%p %d",ip,*ip);
+    printf("\n%p %d",ip+1,*(ip+1));
+    cp = (char *)ip;
+    printf("\n%p %d",cp,*cp);
+    printf("\n%p %d",cp+1,*(cp+1));
 
-  do  {
-    printf("Inserisci dimensione array: \n");
-    scanf("%d", &n);
-  } while(n<1 || n>DIM);
+    // 00000000 00000000 00000100 00000001
 
-  printf("Inserisci i %d elementi:\n",n);
-  for(i=0;i<n;i++)  {
-      printf("elemento di indice - %d : ",i);
-      scanf("%d",&v[i]);
-  }
-```
-
----
-
-# Soluzione
-
-```C
-  ordina(v, n);
-  printf("\nVettore ordinato: ");
-  for(i=0;i<n;i++)
-      printf("%d ",v[i]);
-}
-
-void ordina(int *v, int n) {
-  int i,j,tmp;
-
-  for(i=0; i<n-1; i++)  {
-      for(j=0; j<n-1; j++) {
-          if(*(v+j) > *(v+j+1)) {
-              tmp = *(v+j);
-              *(v+j) = *(v+j+1);
-              *(v+j+1) = tmp;
-          }
-      }
-  }
-}
-```
-
----
-
-# Soluzione
-
-Oppure...
-
-```C
-void scambia(int *, int *); //dichiarazione
-```
-
-```C
-void ordina(int *v, int n) {
-  int i,j,tmp;
-
-  for(i=0; i<n-1; i++)
-      for(j=0; j<n-1; j++)
-          if(*(v+j) > *(v+j+1))
-            scambia((v+j), (v+j+1));
-}
-
-void scambia(int *x, int *y) {
-  int tmp;
-  tmp=*x;
-  *x=*y;
-  *y=tmp;
+    return 0;
 }
 ```
