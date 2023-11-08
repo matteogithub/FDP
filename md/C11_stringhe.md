@@ -11,7 +11,7 @@ marp: true
 
 # C: Stringhe
 
-Elementi di Informatica
+Fondamenti di Programmazione
 
 ---
 
