@@ -185,20 +185,19 @@ printf("\nOggi e' %d/%d/%d",oggi.giorno,oggi.mese,oggi.anno);
 ```C
 #include <stdio.h>
 #define NOME 50
-
-int main() {
-    struct anagr
+struct anagr
     {
         int matricola;
         char nome[NOME];
         char cognome[NOME];
     };
 
+int main() {
+
     struct anagr studente;
     struct anagr *pointer;
 
     pointer=&studente;
-}
 ```
 
 ---
