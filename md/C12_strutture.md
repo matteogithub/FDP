@@ -300,22 +300,20 @@ Le liste lineari concatenate sono costituite da *serie di elementi omogenei* che
 # Liste concatenate lineari (statiche)
 
 ```C
+#include <stdio.h>
 struct lista_valori {
         int num;
         struct lista_valori *next;
     };
-#include <stdio.h>
-
 int main() {
     struct lista_valori val1,val2;
-
     val1.num=10;
     val2.num=20;    
     val1.next=&val2;
     printf("%d",val1.next->num);
 }
 ```
-# ![](/Users/matteo/Documents/GitHub/matteogithub.github.io/files/images/list.png)
+# ![](/Users/matteo/Documents/GitHub/FDP/images/list.png)
 
 ---
 
