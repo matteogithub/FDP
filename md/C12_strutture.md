@@ -265,13 +265,14 @@ E ovviamente...
 # Strutture contenenti puntatori
 
 ```C
-#include <stdio.h>
-int main() {
-    struct st
+struct st
     {
         int *p1;
         int *p2;
     };
+#include <stdio.h>
+int main() {
+
 
     struct st st_pointers;
     int n1=10, n2;
