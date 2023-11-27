@@ -217,33 +217,6 @@ int main() {
 
 # ![](/Users/matteo/Documents/GitHub/FDP/images/lista.png)
 
----
-
-# Array dinamico: calloc()
-
-```C
-#include <stdio.h>
-#include <stdlib.h>
-
-int main () {
-    int i,n;
-    int *ptr;
-
-    printf("Inserisce dimensione array: ");
-    scanf("%d",&n);
-
-    ptr=(int*) calloc(n, sizeof(int)); //init to 0!
-     for(i=0;i<n;i++) {
-         printf("\nInserisce valore: ");
-         scanf("%d",ptr+i);
-     }
-
-    for(i=0;i<n;i++)
-        printf("%d ",*(ptr+i));
-
-    free(ptr);
-}
-```
 
 ---
 
@@ -261,6 +234,34 @@ int main () {
     scanf("%d",&n);
 
     ptr=(int*) malloc(n * sizeof(int));
+     for(i=0;i<n;i++) {
+         printf("\nInserisce valore: ");
+         scanf("%d",ptr+i);
+     }
+
+    for(i=0;i<n;i++)
+        printf("%d ",*(ptr+i));
+
+    free(ptr);
+}
+```
+
+---
+
+# Array dinamico: calloc()
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+    int i,n;
+    int *ptr;
+
+    printf("Inserisce dimensione array: ");
+    scanf("%d",&n);
+
+    ptr=(int*) calloc(n, sizeof(int)); //init to 0!
      for(i=0;i<n;i++) {
          printf("\nInserisce valore: ");
          scanf("%d",ptr+i);
