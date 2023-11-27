@@ -14,13 +14,38 @@ marp: true
 
 
 ---
+
 # Allocazione memoria
 
 Processo utilizzato per assegnare la memoria ad un programma.
 
-Allocazione **statica** (in fase di compilazione - stack): ordine continuo, dimensione limitata, meno efficiente, non riutilizzabile, non può cambiare la dimensione, più veloce
+Allocazione **statica** (in fase di compilazione - stack).
 
-Allocazione **dinamica** (in fase di esecuzione - heap): ordine non continuo, "senza limite" in dimensione, più efficiente, riutilizzabile, può cambiare la dimensione, più lenta
+Allocazione **dinamica** (in fase di esecuzione - heap).
+
+Lo stack è un'area della memoria (*di dimensione fissa*) che conserva le variabili locali, i parametri delle funzioni e le chiamate alla stesse funzioni. 
+Le variabili locali sono attive solo durante la chiamata ad una specifica funzione, dopo vengono "rilasciate".
+
+---
+
+# Allocazione memoria: statica
+
+
+**Stack**:
+- Allocata / deallocata *automaticamente* dal compilatore
+- La dimensione è fissa e non può "crescere" (problema dello stack overflow)
+- LIFO 
+- Accesso più rapido
+
+---
+
+# Allocazione memoria: dinamica
+
+**Heap**:
+- Allocata / deallocata *manualmente* tramite l'uso di specifiche funzioni
+- La dimensione può cambiare ed è meno limitata (problema della frammentazione)
+- Nessun ordine specifico
+- Accesso meno rapido
 
 ---
 
@@ -67,6 +92,25 @@ E' necessario deallocare lo spazio per evitare che diventi successivamente inuti
 
 ```C
 free(p);
+```
+
+---
+
+# Esempio: stack vs heap
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *p; //p è nello stack
+
+    p=(int *)malloc(sizeof(int));
+    //malloc restituisce un indirizzo di heap
+    *p=10; //modifica di heap
+
+    printf("%p %p %d",&p,p,*p);
+    }
 ```
 
 ---
