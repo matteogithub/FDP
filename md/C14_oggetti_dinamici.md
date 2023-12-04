@@ -645,7 +645,7 @@ struct lista *ins_ord(struct lista *p) {
 ```
 
 ---
- -->
+ 
 # Elimina elemento da una lista
 
 ```C
@@ -689,6 +689,8 @@ struct lista *elimina(struct lista *p) {
     return p;
 }
 ```
+-->
+
 <!-- ---
 
 # Esempio compito
